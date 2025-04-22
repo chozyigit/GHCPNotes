@@ -1,40 +1,31 @@
 # Github Copilot Tips & Tricks
 
 ## Table of Contents
+
 1. [Introduction](#introduction)
-2. [Getting Started](#getting-started)
-3. [Tips & Tricks](#tips--tricks)
-4. [Common Pitfalls](#common-pitfalls)
-5. [Resources](#resources)
-6. [Conclusion](#conclusion)
+2. [Q&A Strategy](#qa-strategy)
+3. [Common Pitfalls](#common-pitfalls)
+4. [Resources](#resources)
 
 ---
 
 ## Introduction
-This is a basic tips&trick collection for Github Copilot
+
+This is a basic tips&trick collection for Github Copilot.
 
 ---
 
-## Getting Started
-Outline the steps or prerequisites needed to begin.
+## Q&A Strategy
 
-### Step 1: 
-Describe the first step.
+Use a question-and-answer format to engage the user. This way GHCP can remind you important details and help you to find the right solution.
 
-### Step 2: 
-Describe the second step.
-
----
-
-## Tips & Tricks
-Share useful tips and tricks to enhance understanding or efficiency.
-
-- **Tip 1:** Description of the tip.
-- **Tip 2:** Description of the tip.
+- **Tip 1:** Prompt GHCP to prepare Yes/No questions for the user. That will help to provide more meaningful content for the task.
+- **Tip 2:** Limit the number of the questions to 3-5. This will help to keep the user engaged and not overwhelmed.
 
 ---
 
 ## Common Pitfalls
+
 Highlight common mistakes and how to avoid them.
 
 - **Pitfall 1:** Description and solution.
@@ -43,12 +34,9 @@ Highlight common mistakes and how to avoid them.
 ---
 
 ## Resources
+
 List helpful resources, links, or references.
 
-- [Resource 1](#)
-- [Resource 2](#)
+- [Essential AI prompts for developers](https://www.youtube.com/watch?v=H3M95i4iS5c)
 
 ---
-
-## Conclusion
-Summarize the key takeaways and encourage further exploration.
