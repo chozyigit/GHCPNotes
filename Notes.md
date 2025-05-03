@@ -91,7 +91,7 @@ Use a chain of thought approach to get a more detailed and comprehensive answer.
 This file contains specific instructions for configuring GitHub Copilot to better suit your development needs.
 
 ---
-<!-- Investigate that ones accuracy -->
+<!-- Investigate the accuracy of this section -->
 ### Customized Instructions for GHCP
 
 Customize the instructions for GHCP to improve the quality of the responses. This can be done by providing specific guidelines or preferences for how you want GHCP to respond.
@@ -117,9 +117,6 @@ Customize the instructions for GHCP to improve the quality of the responses. Thi
 Highlight common mistakes and how to avoid them.
 
 - **Pitfall 1:** Model training cut-off dates.
-- **Pitfall 2:** 
-- **Pitfall 3:**
-- **Pitfall 4:**
 
 ---
 
