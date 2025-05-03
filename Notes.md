@@ -4,14 +4,10 @@
 
 1. [Introduction](#introduction)
 2. [Basic Tips](#basic-tips)
-    - [Inline Chat vs. Chat Panel](#tip-1)  
-    - [Comments for code completions](#tip-2)  
-    - [Importance of header file](#tip-3)  
-    - ['Master' comments for code completions](#tip-4)  
-    - [Tip 5](#tip-5)  
-    - [Tip 6](#tip-6)  
-    - [Tip 7](#tip-7)  
-    - [Tip 8](#tip-8)
+    - [Inline Chat vs. Chat Panel](#inline-chat-vs-chat-panel)  
+    - [Comments for code completions](#comments-for-code-completions)  
+    - [Importance of header file](#importance-of-header-file)  
+    - ['Master' comments for code completions](#master-comments-for-code-completions)  
 3. [Prompting Strategies](#prompting-strategies)
     - [Q&A Strategy](#qa-strategy)  
     - [Pros and Cons Strategy](#pros-and-cons-strategy)  
@@ -19,10 +15,8 @@
 4. [Customizations](#customizations)
     - [copilot-instructions.md File](#copilot-instructionsmd-file)  
     - [Customized Instructions for GHCP](#customized-instructions-for-ghcp)
-6. [New Entry](#new)
-7. [Common Pitfalls](#common-pitfalls)
-8. [Resources](#resources)
-9. [New Entry](#new-entry)
+5. [Common Pitfalls](#common-pitfalls)
+6. [Resources](#resources)
 
 ---
 
@@ -33,6 +27,24 @@ This is a basic tips&trick collection for Github Copilot.
 ---
 
 ## Basic Tips
+
+### Inline Chat vs. Chat Panel
+
+- **Inline Chat:** Use inline chat for **quick questions or clarifications** while coding. It allows you to ask GHCP about specific lines of code or functions without interrupting your workflow.
+- **Chat Panel:** Use the chat panel for more complex discussions or when you need to **provide context**. It allows for a more structured conversation and is better suited for in-depth inquiries.
+
+### Comments for code completions
+
+- Use comments to clarify your intentions in the code. This helps GHCP understand the context better and provide more relevant suggestions.
+- Although not suggested, you can use comments to instruct GHCP to perform specific tasks or follow certain guidelines as well. However, the inline chat is more effective and advised for this purpose.
+
+### Importance of header file
+
+- Preparing well structured and clear header files improves the quality of code generation. Having a clear interface file helps GHCP understand the context and purpose of your code, leading to more accurate suggestions.
+
+### Master comments for code completions
+
+- At the head of the file, you may have a set of instructions or guidelines for GHCP to follow for this file. This is a good practice to ensure that GHCP understands the context and purpose of the code.
 
 ---
 
